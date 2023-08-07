@@ -1,0 +1,7 @@
+---
+title: "Clase01"
+author: "Peredo Leonel"
+output: pdf_document
+---
+
+  
