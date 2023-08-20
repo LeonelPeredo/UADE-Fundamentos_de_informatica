@@ -4,4 +4,138 @@ author: "Peredo Leonel"
 output: pdf_document
 ---
 
-  
+*TIC*: Tecnologías de información y comunicación.
+
+Diapo 1
+
+Cómo interpretar un problema: 
+
+Diapo 6
+
+Un programa es un problema resuelto. Al programar, vamos a implementar una serie de pasos que permite resolver ese problema. 
+
+
+Comprension de programas
+Diapo 7
+ 
+ Parrafo 1
+Además de poder programar, tenemos que saber separarlo para resolver problemas màs chicos
+
+Parrafo 2
+
+Que se pueda hacer programas requiere reutilizar codigo. Se dice que la programacion se basa en microcodigois. Cuanto mas chico es el codigo mejor. Las lineas tienen que ser pocas pero las necesarias. Esta mal escribir mucho codigo que ataque muchos problemas simultaneamente.
+Entonces se generan fx cortas que resuelven distintas cosas. El problema al hacer un programa grande, es que se es mas propenso a cometer errores. La idea es disminuir el tpo de conexion a internet. Programas grandes que necesitan mucho tiempo de conexion no sirven. 
+
+Parrafo 3
+
+Diapo 8
+
+Pensamiento Computacional: Es cómo resolvemos problemas hoy cada día, y va más allá de programar o codificar.-.---
+
+Diapo 9 (Etapas)
+
+1. Pensamiento algorítmico. 
+2. Descomposición. COMPLETAR
+3. Generalización y reconocimiento de patrones. Unificar los pasos anteriores y abstraer, limpiar el problema para dejar los elementos importantes.
+4. Abstracción y representación.  Establecer la solución posible del problema como una serie de pasos a seguir, estableciendo los algoritmos necesarios.
+5. Evaluación. Evaluar si los pasos te llevan a la solución.
+
+Diapo 10
+
+## Algoritmo
+
+El nombre algoritmo viene del latin ...
+
+
+Diapo 11
+
+El orden de sucesos es: Datos de entrada -> (Proceso a resolver) -> Datos de salida
+Sin embargo a la hora de analizar, veo los datos de entrada y salida primero, y después miro el problema a resolver.
+
+Diapo 11 bis (?) Programa vs Algoritmo
+
+En términos de programación, un algoritmo es una secuencia de pasos lógicos que permiten solucionar un problema.
+
+## Generalidades sobre la organización de una computadora....
+
+El abaco es considerado el primer instrumento..
+
+La primer amáquina que realizaba cálculos...
+
+En 1822 Charles Babbage desarrolló...
+
+A principios del siglo XIX, el Ingeniero...
+
+En 1937, Howard H. Aiken desarrolló...
+
+En 1944, la Mark I de IBM...
+
+El Dr. John Von Neumann, matemático húngaro-norteamericano, sugirió que las instrucciones de operación...
+
+Generaciones de Computadores:
+Partes 1 y 2.
+
+Segunda Generación: Máquinas de cálculo.
+
+A partir de la cuarta gen el tamaño se achica y permite llegar a los hogares.
+Quinta Generación: Computadores con más de un procesador, cada uno con una tarea específica como procesamiento de imagen o de sonido. 
+
+Nosotros estamos en la quinta.
+
+Tipos de computadoras:
+Analógicas: Una computadora análoga tiene dispositivos electrónicos o meca--
+
+Una computadora es un dispositivoi electrónico utilizado para procesar datos y proveer de información para la toma de una decisión. 
+
+Estrucuta. Computador / Hardware / Software...
+
+Arquitectura
+
+Dispositivos de entrada: Permiten el ingreso de datos a una PC. Teclado, mouse, cámara.
+Dispositivo de salida: Permiten mostrar información almacenada o procesada por la PC. Pantallas, impresoras, auriculares.
+Dispositivos de almacenamiento: En los que la PC puede guardar y de los cuales se puede obtener información. Discos flexibles, discos duros, PenDrive.
+Dispositivos de comunicación: Pêrmiten a una PC comunicarse con otras. Modems, placas de red.
+
+Distintos tipos de Memoria. Todos los dispositivos tienen tres tipos de memoria:
+RAM (Random Access Memory): 
+ROM (Read Only Memory):
+Caché: Memoria de acceso rápido, temporal. Usada como puente entre la CPU y la RAM, para evitar demoras en la consulta de la RAM. 
+
+Diapo 30
+
+Bit: Cantidad de información más pequeña utilizada por una computadora. Se expresa en 0 y 1. Con 8 bits se hace un Byte. El byte es la unidad b´ñasica de información y el bit la unidad bñasica de representación. 
+Byte: Bynary Tuple. 1 Byte es 1 caracter.
+
+Codigo ascii ( )
+...
+
+Unidades de Medida
+
+---
+
+
+44
+
+El compilador hace una traducción del programa fuente a un programa objeto, para que la PC lo pueda entender. Lo traduce en un código Hexadecimal. Funciona como un traductor de un libro.
+El intérprete hace lo mismo pero con la diferencia de que va interpretando por instrucciones y se las va pasando a la PC diciendole qué tiene qué hacer. Funciona como un traductor simultáneo de un evento.
+En resumen, el compilador traduce e interpreta por separado y el intérprete lo hace todo junto.
+En particular Python es un lenguaje interpretado.
+
+
+
+--
+
+52
+Software de sistema: Son aquellos que interactúan entre el usuario y el hardware del ordenador. Windows, iOS, Android.
+Software de aplicación: Todo lo que se instala arriba. Aplicaciones, Paquete Office.
+Software de programación: Nos ayudan a crear programas informáticos. Son los que creamos para terminar transformando en una aplicación.
+
+
+56
+Los investigadores observaron,...
+
+
+
+
+
+
