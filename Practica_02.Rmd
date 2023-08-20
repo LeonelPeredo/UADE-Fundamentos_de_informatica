@@ -148,5 +148,5 @@ cen = (binario % 1000) // 100
 dec = (binario % 100) // 10
 uni = binario % 10
 decimal = mil * 8 + cen * 4 + dec * 2 + uni
-print(binario, "en binario es igual a", dec
+print(binario, "en binario es igual a", decimal, "en decimal")
 ```
