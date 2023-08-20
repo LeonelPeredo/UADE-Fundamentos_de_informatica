@@ -1,0 +1,152 @@
+---
+title: "Practica_02"
+author: "Peredo Leonel"
+output: pdf_document
+---
+Estos ejercicios son a fines de ejercitar operadores aritméticos y cálculos básicos. Los algoritmos no están puestos a prueba para buscar errores en los input.
+
+# Ejercicio 1
+
+```
+print(12 * 4 + 4 * 5)
+print((12 * (1 - 5) + 4) * 3)
+print(12 * 1 - 5 + 4 * 3)
+print((17 - 2) * 5)
+print(3 + 2 * 2 - (8 * 4 + 1 / 2.0) * 3)
+print(5 * 4 / 2)
+print(5 * (4 / 2))
+print(24 / 2 ** 2)
+print((24 / 2) ** 2)
+print(3 + 4 * 6 / 2 - 5)
+print(3 + 4 * 6 / (2 - 5))
+print((-0.1) * 3)
+```
+Notar que el resultado de este item es $-0.30000000004$. El 4 es un "error" de Python el calcular. A la hora de operar se termina redondeando o truncando.
+```
+print(-9 ** 2)
+print((-9) ** 2)
+print(10 / 3)
+print(10 // 3)
+print(12 % 5)
+```
+
+# Ejercicio 2
+
+```
+intA = int(input("Ingrese entero A:"))
+intB = int(input("Ingrese entero B:"))
+print("La suma es", intA + intB, "y la resta es", intA - intB)
+```
+
+# Ejercicio 3
+
+```
+parcial1 = float(input("Nota de primer parcial:"))
+parcial2 = float(input("Nota de segundo parcial:"))
+print("El promedio es:", (parcial1 + parcial2)/2)
+```
+
+# Ejercicio 4
+
+```
+edad = int(input("Ingrese su edad en años:"))
+print("Su edad en días es:", edad * 365)
+```
+
+# Ejercicio 5
+
+```
+
+dinero1 = float(input("Ingrese el dinero que invirtió la primer persona:"))
+dinero2 = float(input("Ingrese el dinero que invirtió la segunda persona:"))
+dinero3 = float(input("Ingrese el dinero que invirtió la tercer persona:"))
+total = dinero1 + dinero2 + dinero3
+porcentaje1 = dinero1 / total * 100
+porcentaje2 = dinero2 / total * 100
+porcentaje3 = dinero3 / total * 100
+print("La primer persona invirtió un ", porcentaje1,
+      "%, la segunda un ", porcentaje2,
+      "% y la tercera un ", porcentaje3, "%
+```
+
+# Ejercicio 6
+
+```
+entero1 = int(input("Ingrese el primer número entero:"))
+entero2 = int(input("Ingrese el segundo número entero:"))
+entero3 = int(input("Ingrese el tercer número entero:"))
+print("El promedio es:", (entero1 + entero2
+```
+# Ejercicio 7
+
+```
+ingreso = float(input("Ingrese su inversión:"))
+interes = 0.02
+ganancia = 1 + interes
+meses = 6
+total = ingreso * (ganancia ** meses)
+print("Ganará",total)
+```
+
+# Ejercicio 8
+
+```
+metros = float(input("Ingrese la medida en metros:"))
+centimetros = metros * 100
+pulgadas = centimetros / 2.54
+pies = pulgadas / 12
+yardas = pies / 3
+print(metros,"metros, equivale a",
+      centimetros, "centimetros,",
+      pulgadas, "pulgadas,",
+      pies,"pies y",
+      yardas,"yardas")
+```
+
+# Ejercicio 9
+
+```
+vendedor = int(input("Ingrese número del vendedor:"))
+cantventas = int(input("ingrese la cantidad de ventas:"))
+totalventas = int(input("Ingrese el total de las ventas:"))
+salario = 50000 + cantventas * 5000 + totalventas * 5 / 100
+print("El vendedor", vendedor, "cobra", salario)
+```
+# Ejercicio 10
+
+```
+total = int(input("Ingrese la cantidad de segundos:"))
+segundos = total % 60
+minutos = (total // 60) % 60
+horas = (total // 60 // 60) % 24
+dias = total // 60 // 60 // 24
+print(dias, "días,",horas, "horas,", minutos, "minutos,",segundos, "segundos")
+```
+
+# Ejercicio 11
+
+```
+dinero = int(input("Ingrese la cantidad de dinero:"))
+mil = dinero // 1000
+quin = (dinero % 1000) // 500
+cien = (dinero % 500) // 100
+cinc = (dinero % 100) // 50
+diez = (dinero % 50) // 10
+cinco = (dinero % 10) // 5
+uno = dinero % 5
+print("Son", mil, "billetes de 1000,",
+      quin, "de 500,", cien, "de 100,",
+      cinc, "de 50,", diez, "de 10,",
+      cinco, "de 5 y", uno, "de 1")
+```
+# Ejercicio 12
+
+```
+binario = int(input("Ingrese binario de 4 cifras:"))
+mil = binario // 1000
+cen = (binario % 1000) // 100
+dec = (binario % 100) // 10
+uni = binario % 10
+decimal = mil * 8 + cen * 4 + dec * 2 + uni
+print(binario, "en binario es igual a", dec
+```
