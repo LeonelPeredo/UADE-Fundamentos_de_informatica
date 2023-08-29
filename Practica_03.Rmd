@@ -1,0 +1,166 @@
+---
+title: "Practica_03"
+author: "Peredo Leonel"
+output: pdf_document
+---
+
+# Ejercicio 1
+
+```
+a = int(input("Ingrese un entero:"))
+b = int(input("Ingrese otro entero:"))
+if a == b:
+    print("Son iguales")
+else:
+    print("Son distintos")
+```
+
+# Ejercicio 2
+
+```
+a = int(input("Ingrese un entero:"))
+if a % 2 == 0:
+    print("Es par")
+else:
+    print("Es impar")
+```
+
+# Ejercicio 3
+
+```
+mes = int(input("Ingrese un número de mes:"))
+if mes == 1:
+    print("Enero")
+elif mes == 2:
+    print("Febrero")
+elif mes == 3:
+    print("Marzo")
+elif mes == 4:
+    print("Abril")
+elif mes == 5:
+    print("Mayo")
+elif mes == 6:
+    print("Junio")
+elif mes == 7:
+    print("Julio")
+elif mes == 8:
+    print("Agosto")
+elif mes == 9:
+    print("Septiembre")
+elif mes == 10:
+    print("Octubre")
+elif mes == 11:
+    print("Noviembre")
+elif mes == 12:
+    print("Diciembre")
+else:
+    print("Error")
+```
+# Ejercicio 4
+
+```
+nota1 = int(input("Ingrese su primer nota:"))
+nota2 = int(input("Ingrese su segunda nota:"))
+if nota1 >= 7 and nota2 >= 7:
+    print("Promociona")
+elif nota1 >= 4 and nota2 >= 4:
+    print("Aprueba")
+else:
+    print("Recupera")
+```
+
+# Ejercicio 5
+
+```
+paginas = int(input("Ingrese la cantidad de páginas del libro:"))
+costo = 500
+if paginas <= 300:
+    costo = costo + paginas * 3.20
+elif paginas <= 600:
+    costo = costo + 200 + paginas * 3.20
+else:
+    costo = costo + 536 + paginas * 3.20
+print("El costo es de", costo)
+```
+
+# Ejercicio 6
+
+```
+km = int(input("Ingrese la cantidad de kilómetros:"))
+minimo = 250
+if km >= 0 and km <= 10:
+    costo = minimo + 30 * km
+else:
+    costo = minimo + 20 * km
+print("El costo es de", costo)
+```
+
+# Ejercicio 7
+
+```
+a = int(input("Ingrese un año:"))
+if a % 400 == 0 or (a % 4 == 0 and a % 100 != 0):
+    print("Es bisiesto")
+else:
+    print("No es bisiesto")
+```
+
+# Ejercicio 8
+
+```
+dia = int(input("Ingrese un dia:"))
+mes = int(input("Ingrese un mes:"))
+anio = int(input("Ingrese un año:"))
+if mes < 1 or mes > 12:
+    print("Fecha inválida")
+elif mes == 2:
+    # Para ver si el año es bisiesto
+    if anio % 400 == 0 or (anio % 4 == 0 and anio % 100 != 0):
+        x = 29
+    else:
+        x = 28
+    if dia > 0 and dia < x:
+        print("Fecha válida")
+    else:
+        print("Fecha inválida")
+elif mes == 4 or mes == 6 or mes == 9 or mes == 11:
+    if dia > 0 and dia < 31:
+        print("Fecha válida")
+    else:
+        print("Fecha inválida")
+else:
+    if dia > 0 and dia < 32:
+        print("Fecha válida")
+    else:
+        print("Fecha inválida")
+```
+
+# Ejercicio 9
+
+```
+bruto = int(input("Ingrese su sueldo bruto:"))
+estado = int(input("Ingrese su estado civil: 1 si es soltero, 2 si es casado"))
+antiguedad = int(input("Ingrese años de antigüedad:"))
+
+jubilacion = bruto * 0.11
+obrasocial = bruto * 0.03
+sindicato = bruto * 0.03
+descuentos = jubilacion + obrasocial + sindicato
+
+if estado == 1:
+    bruto_ant = bruto + bruto * 0.05 * antiguedad
+    print("Estado Civil: Soltero")
+if estado == 2:
+    bruto_ant = bruto + bruto * 0.07 * antiguedad
+    print("Estado Civil: Casado")
+
+neto = bruto_ant - descuentos
+
+print("Sueldo básico:", bruto)
+print(antiguedad,"años de antigüedad")
+print("Importe: +", bruto_ant)
+print("Jubilación: -", jubilacion)
+print("Obra Social: -", obrasocial)
+print("Sindicato: -", sindicato)
+print("Sueldo neto:", neto)
+```
