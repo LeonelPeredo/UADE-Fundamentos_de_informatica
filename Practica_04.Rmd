@@ -7,7 +7,12 @@ output: pdf_document
 # Ejercicio 1
 
 ```
-
+n = int(input("Ingrese un número o -1 para terminar:"))
+primero = n
+while n != -1:
+    ultimo = n
+    n = int(input("Ingrese un número o -1 para terminar:"))
+print("El primer número fue", primero, "y el último fue", ultimo) 
 ```
 
 # Ejercicio 2
@@ -19,7 +24,16 @@ output: pdf_document
 # Ejercicio 3
 
 ```
-
+n = int(input("Ingrese un número o -1 para terminar:"))
+mayor = n
+menor = n
+while n != -1:
+    if n > mayor:
+        mayor = n
+    if n < menor:
+        menor = n
+    n = int(input("Ingrese un número o -1 para terminar:"))
+print("El mayor es", mayor, "y el menor es", menor) 
 ```
 # Ejercicio 4
 
@@ -58,13 +72,36 @@ while i <= 12:
 # Ejercicio 7
 
 ```
-
+i = 1
+mayor = 0
+suma = 0
+while i <= 10:
+    n = int(input("Ingrese una nota: "))
+    while n < 0 or n > 10:
+        print("El número debe estar entre 0 y 10")
+        n = int(input("Ingrese una nota: "))
+    if n > mayor:
+        mayor = n
+        posicion = i
+    suma = suma + n
+    i = i + 1
+promedio = suma / 10
+print("El promedio es", promedio,
+      ", la mayor nota es", mayor,
+      "y fue la nota cargada en posicion", posicion)
 ```
 
 # Ejercicio 8
 
 ```
-
+sum = 0
+i = 0
+while sum <= 100:
+    i = i + 1
+    a = int(input("Ingrese un número:"))
+    if a % 2 == 0:
+        sum = sum + a
+print(i)
 ```
 
 # Ejercicio 9
